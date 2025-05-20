@@ -76,12 +76,6 @@ const ModifyRoom = () => {
         });
     };
 
-    const handleFileChange = (e) => {
-        setFormData({
-            ...formData,
-            imagenPoster: e.target.files[0]
-        });
-    };
 
     const handleSubmit = async (e) => {
         e.preventDefault();

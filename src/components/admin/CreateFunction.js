@@ -56,7 +56,7 @@ const CreateFunction = () => {
         }
 
         try {
-            const selectedPelicula = peliculas.find(p => p.id_pelicula.toString() === formData.id_pelicula);
+            
             const fechaFormateada = new Date(formData.fecha).toISOString().split("T")[0];
             const funcionData = {
                 id_sala: parseInt(formData.id_sala),
