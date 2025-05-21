@@ -28,11 +28,6 @@ const Navbar = ({ user, onLogout }) => {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/admin/create-function" className="nav-link">
-                                Crear Función
-                            </Link>
-                        </li>
-                        <li className="nav-item">
                             <Link to="/admin/modify-function" className="nav-link">
                                 Modificar Función
                             </Link>
